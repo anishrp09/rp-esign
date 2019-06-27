@@ -57,7 +57,6 @@ let rpSignature = class{
 	}
 
 	draw_rpsign(e){
-		
 		if(e.buttons==1){
 			if(this.setting.xstarting && this.setting.ystarting){
 				var ctx 			=	e.srcElement.getContext("2d");

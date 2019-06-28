@@ -3,27 +3,27 @@ let rpSignature = class{
 	constructor(getParams){
 		var rpEvent = this;
 		this.defaultSetting = {
-			penColor	 	 :  '#000',
-			pointSize		 :  2,
-			canvasbordercolor: 	'#c3c3c3',
-			canvasbordersize : 	'1',
-			canvaswidth 	 : 	'400',
-			canvasheight	 : 	'200',
-			imageformat      :	'image/png',
+			penColor	 : '#000',
+			pointSize	 :  2,
+			canvasbordercolor: '#c3c3c3',
+			canvasbordersize : '1',
+			canvaswidth 	 : '400',
+			canvasheight	 : '200',
+			imageformat      :'image/png',
 			
 		};
 		this.setting = {
 			signaturePad		: (getParams.signaturePad !=undefined) ? getParams.signaturePad : null,
-			penColor  			: (getParams.penColor !=undefined) ? getParams.penColor : this.defaultSetting.penColor,
-			pointSize  			: (getParams.pointSize !=undefined) ? getParams.pointSize :  this.defaultSetting.pointSize,
+			penColor  		: (getParams.penColor !=undefined) ? getParams.penColor : this.defaultSetting.penColor,
+			pointSize  		: (getParams.pointSize !=undefined) ? getParams.pointSize :  this.defaultSetting.pointSize,
 			canvasbordercolor  	: (getParams.canvasbordercolor !=undefined) ? getParams.canvasbordercolor :  this.defaultSetting.canvasbordercolor,
 			canvasbordersize  	: (getParams.canvasbordersize !=undefined) ? getParams.canvasbordersize :  this.defaultSetting.canvasbordersize,
 			canvaswidth  		: (getParams.canvaswidth !=undefined) ? getParams.canvaswidth :  '',
 			canvasheight  		: (getParams.canvasheight !=undefined) ? getParams.canvasheight :  this.defaultSetting.canvasheight,
 			imageformat  		: (getParams.imageformat !=undefined) ? getParams.imageformat :  this.defaultSetting.imageformat,
 			backgroundColor		: (getParams.backgroundColor !=undefined) ? getParams.backgroundColor : 'none',
-			xstarting  			: '',
-			ystarting  			: '',
+			xstarting  		: '',
+			ystarting  		: '',
 			signLength  		: 0
 		};
 		

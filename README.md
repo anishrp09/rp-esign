@@ -24,14 +24,14 @@ HTML
 
 	Script
 	'let objSign = new rpSignature({
-		signaturePad 	 : 'signature_dIv', //div name
-		penColor	 	 :  '#000',         //Sign color
-		pointSize		 :  2,				//Sign Size
-		canvasbordercolor: 	'#c3c3c3',		//canvas border color
-		canvasbordersize : 	'1',			//canvas border size
-		canvaswidth 	 : 	'400',			//canvas  width
-		canvasheight	 : 	'200',			//canvas  size
-		imageformat      :	'image/png'		//image format
+		signaturePad 	 : 	'signature_dIv', //div name
+		penColor	 :  	'#000',         //Sign color
+		pointSize	 :  	2,	     	//Sign Size
+		canvasbordercolor: 	'#c3c3c3',   	//canvas border color
+		canvasbordersize : 	'1',	     	//canvas border size
+		canvaswidth 	 : 	'400',	     	//canvas  width
+		canvasheight	 : 	'200',	     	//canvas  size
+		imageformat      :	'image/png'   	//image format
 	});
 
 	document.getElementById('saveBtn').onclick = function(){
